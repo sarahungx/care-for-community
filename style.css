@@ -1,0 +1,565 @@
+/* CSS files add styling rules to your content */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+@media(min-width:468px){
+  .fullpage{
+    display: flex;
+  }
+}
+body{
+  background-color: #E0FFFF;
+ 
+}
+
+.bio3{
+  font-size: 25px; 
+  color: #e86575;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 2px purple; 
+}
+
+.Amrita {
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: none; 
+  font-size: 25px; 
+  color: #e86575;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border: .5px; 
+ 
+}
+
+.image1 {
+  height: 60%;
+  border-style: solid; 
+  
+  border-color: #cd4646; 
+  width: 700px;
+ 
+}
+
+.tabs {
+  font-size: 30px;
+    letter-spacing: 6px;
+     text-shadow: 1px 1px pink;
+ text-align: center;
+  border-top-style: solid;
+  border-color: #cd4646; 
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-left-style: solid;
+background-color: #FFFFFF;
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto; 
+  
+}
+
+.SF-Facts-Title{
+  font-size: 40px; 
+   color: darkblue; 
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: underline;
+   text-shadow: 1px 1px blue;
+  letter-spacing: 6px;
+}
+
+.aboutUS{
+   
+font-size: 40px; 
+   color: darkblue; 
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: underline;
+   text-shadow: 1px 1px blue;
+  
+}
+
+.hotlinesTitle{
+  font-size: 45px; 
+   color: darkblue; 
+}
+
+.contactPage{
+  font-size: 45px; 
+   color: darkblue; 
+}
+
+.images {
+  display: flex; 
+}
+
+.grid-container{
+  display: grid; 
+  grid-template-columns: auto auto; 
+ grid-template-rows: 300px, 300px;  
+    padding: 5px;
+/*   justify-content: space-around;  */
+    
+}
+
+.grid-item{
+/*   text-align: center;  */
+  display: flex;
+  justify-content: space-around;
+}
+.hotlinePic {
+/*   height: 200px; */
+  width: 60%;
+    border: 4px solid;
+  border-color: #f46d71;
+    background-color: #fffdef;
+  object-fit: cover;
+ padding: 10px;
+  margin: 30px;
+  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px; 
+  float: right;
+}
+
+.hotlinePic2{
+/*   height: 200px; */
+  width: 60%;
+  object-fit: cover;
+  border: 4px solid;
+    border-color: #f46d71;
+    background-color: #fffdef;
+ padding: 10px;
+  margin: 30px;
+  display: inline; 
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  float:left;
+}
+
+
+.Pic1, .Pic2, .Pic3 {
+/*   height: 200px; */
+  width: 300px;
+/*     border: 4px solid;
+  border-color: #f46d71; */
+  
+  object-fit: cover;
+ padding: 10px;
+  margin: 30px;
+  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px; 
+  border-radius: 75%;
+  justify-content: space-between;
+/*   float: right; */
+}
+
+.allBios {
+    display: inline;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+  
+}
+
+.bio1 {
+  width: 375px;
+  
+  object-fit: cover;
+ padding: 10px;
+  margin: 30px;
+  height: 300px; 
+}
+
+
+.bio2 {
+    width: 375px;
+   
+  object-fit: cover;
+ padding: 10px;
+  margin: 30px;
+  height: 300px; 
+}
+
+
+.bio3{
+      width: 375px;
+
+  object-fit: cover;
+ padding: 10px;
+  margin: 30px;
+  height: 300px; 
+}
+
+
+
+
+
+.facts{
+  font-size: 25px; 
+  color: darkblue; 
+  font-family: 'Quicksand', sans-serif;
+   margin-left: 90px; 
+  margin-right: 90px; 
+  
+}
+
+.conclusion {
+  font-size: 25px; 
+  color: darkblue; 
+  font-family: 'Quicksand', sans-serif;
+   margin-left: 90px; 
+  margin-right: 90px; 
+   font-weight: 900;
+ 
+}
+
+.ending{
+   font-weight: bold;
+   text-shadow: 1px 1px blue;
+/*   justify-content: flex left;  */
+  
+  
+}
+
+button {
+    font-size: 40px;
+  background-color: #FFFFFF;
+  letter-spacing: 6px;
+  border: 3px solid darkblue;
+   text-align: center;
+   justify-content: center;
+  display: flex;
+   border: 40px, #3EFBCF;
+  
+  font-family: 'Amatic SC', cursive;
+}
+
+h3{
+    font-size: 50px;
+    letter-spacing: 3px;
+  letter-spacing: 2.4px;
+     text-shadow: 1px 1px blue;
+/*  text-align: center; */
+  font-family: 'Amatic SC', cursive; 
+/*   width: 860px; */
+  display: block; 
+/*   margin: auto;  */
+  margin-left: 0%;
+  margin-right: 35%;
+}
+
+h2{
+  font-color: #d46976;
+}
+
+
+.pinpoint{
+  height: 50px;
+  width: 50px;
+  margin-left: 35%;
+  
+  
+}
+
+.contactPage{
+  font-size: 30px; 
+}
+
+
+.cityname{
+
+  
+  font-size: 40px; 
+   color: darkblue; 
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: underline;
+   text-shadow: 1px 1px blue;
+}
+
+.cityname, .pinpoint {
+  display: inline-block;
+  
+}
+
+.box{
+  display: block;
+}
+.conclusion{
+   left-margin: 50px; 
+  right-margin: 50px; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+a  {
+  text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #d46976;
+}
+a:hover {
+    color: red;
+}
+  
+.services {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  flex-direction: column;
+}
+
+.submit {
+  height: 50%;
+  width: 400px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+
+.plsConsult{
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: -1px;
+  
+  font-size: 16px; 
+}
+
+.hotlinenumbers{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px; 
+
+}
+
+.hotlines{
+  font-size: 24px; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.hotlineOne{
+  background-color: #FFFFFF;
+  border: 3px black solid;
+  margin-top: 30px;
+  min-width: 600px;
+  width: 600px;
+  height: 150px;
+  margin: 10px;
+    text-shadow: 1px 1px pink;
+  
+  
+}
+
+
+.hotlineTwo{
+  background-color: #FFFFFF;
+  border: 3px black solid;
+  margin-top: 30px;
+  min-width: 600px;
+  width: 600px;
+  height: 150px;
+  margin: 10px;
+    text-shadow: 1px 1px pink;
+
+  
+}
+
+.CallToReserve{
+  font-size: 20px;
+}
+
+.hotlineThree{
+  background-color: #FFFFFF;
+  border: 3px black solid;
+  margin-top: 30px;
+  min-width: 600px;
+  width: 600px;
+  height: 150px;
+  margin: 10px;
+    text-shadow: 1px 1px pink;
+ 
+  
+}
+
+.hotlineFour{
+  background-color: #FFFFFF;
+  border: 3px black solid;
+  margin-top: 30px;
+  min-width: 600px;
+  width: 600px;
+  height: 150px;
+  margin: 10px;
+    text-shadow: 1px 1px pink;
+
+  
+}
+
+.ending {
+   font-weight: bold;
+}
+.hotlines{
+  
+}
+
+#locator {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#info, #selector {
+  display: none;
+  padding: 20px;
+}
+
+.choices {
+  width: 40px;
+  text-align: center;
+}
+
+.radio {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.radio:checked {
+  background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* SLIDESHOW */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  padding-left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
